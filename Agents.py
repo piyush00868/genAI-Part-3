@@ -6,6 +6,7 @@ from langchain.tools import tool
 from langchain_tavily import TavilySearch
 from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage, ToolMessage
+from rich import print
 
 
 load_dotenv()
